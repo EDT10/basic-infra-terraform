@@ -2,7 +2,7 @@ provider "aws" {
   region = "us-east-1"
   #Keys have been deleted. Created key just for this project.
   access_key = "AKIA3KK5ZWRU3JIRA6PC"
-  secret_key = "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"
+  secret_key = 
 }
 
 resource "aws_vpc" "web-vpc" {
